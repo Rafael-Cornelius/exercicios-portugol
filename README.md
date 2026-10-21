@@ -1,34 +1,50 @@
-<div align="center">
-
-![Banner animado dos exercícios em Portugol](assets/banner-portugol.svg)
-
 # Exercícios em Portugol
 
-Dez atividades práticas desenvolvidas para treinar lógica de programação, entrada de dados, cálculos e saída de resultados.
+Atividades de lógica de programação da faculdade, organizadas por assunto.
 
-</div>
+## Básicos
 
-## Atividades
+| Arquivo | Conteúdo |
+|---|---|
+| [01-soma-dois-numeros](basicos/01-soma-dois-numeros.por) | Soma de dois números |
+| [02-media-tres-notas](basicos/02-media-tres-notas.por) | Média de três notas |
+| [03-boas-vindas](basicos/03-boas-vindas.por) | Mensagem com o nome do aluno |
+| [04-idade-em-dez-anos](basicos/04-idade-em-dez-anos.por) | Idade futura |
+| [05-aumento-salarial](basicos/05-aumento-salarial.por) | Aumento de 15% |
+| [06-area-triangulo](basicos/06-area-triangulo.por) | Área do triângulo |
+| [07-area-circulo](basicos/07-area-circulo.por) | Área do círculo |
+| [08-reais-para-dolares](basicos/08-reais-para-dolares.por) | Conversão monetária |
+| [09-salario-horas-e-dias](basicos/09-salario-horas-e-dias.por) | Salário por horas e dias |
+| [10-pedido-lanchonete](basicos/10-pedido-lanchonete.por) | Total de um pedido |
 
-| Nº | Atividade | Conceito principal |
-|---:|---|---|
-| 1 | [Calculadora básica de soma de dois números](calculadora-basica-soma-dois-numeros.por) | Variáveis, entrada e adição |
-| 2 | [Calculadora da média de três notas](calculadora-media-tres-notas.por) | Operações e média aritmética |
-| 3 | [Mensagem de boas-vindas ao aluno](mensagem-boas-vindas-aluno.por) | Texto, leitura e escrita |
-| 4 | [Calculadora de idade daqui a dez anos](calculadora-idade-daqui-dez-anos.por) | Adição e projeção de idade |
-| 5 | [Calculadora de aumento salarial de 15%](calculadora-aumento-salarial-15-por-cento.por) | Porcentagem e salário |
-| 6 | [Calculadora da área de um triângulo](calculadora-area-triangulo.por) | Fórmula geométrica |
-| 7 | [Calculadora da área de um círculo](calculadora-area-circulo.por) | Raio, π e potenciação |
-| 8 | [Conversor de reais para dólares](conversor-reais-para-dolares.por) | Conversão monetária |
-| 9 | [Calculadora de salário por horas e dias trabalhados](calculadora-salario-horas-e-dias-trabalhados.por) | Multiplicação e salário |
-| 10 | [Calculadora do total de um pedido de lanchonete](calculadora-total-pedido-lanchonete.por) | Quantidades, preços e total |
+## Vetores
+
+- [01-leitura-e-exibicao](vetores/01-leitura-e-exibicao.por)
+- [02-soma-dos-elementos](vetores/02-soma-dos-elementos.por)
+- [03-media-das-notas](vetores/03-media-das-notas.por)
+- [04-maior-e-menor](vetores/04-maior-e-menor.por)
+- [05-busca-de-numero](vetores/05-busca-de-numero.por)
+
+Os cinco códigos de vetores foram recuperados das páginas salvas no
+[arquivo original](https://github.com/Rafael-Cornelius/Exercicios-de-vetores-em-C).
+Os arquivos chamados “Exercicio 5” e “Exercicio 6” contêm o mesmo código; ele aparece uma única vez aqui.
+O conteúdo recuperado é Portugol, apesar do nome do repositório de origem.
 
 ## Como executar
 
-1. Baixe o arquivo `.por` desejado.
-2. Abra-o no Portugol Studio.
-3. Execute o programa e informe os valores solicitados.
+Abra um arquivo `.por` no Portugol Studio ou em um ambiente compatível com a sintaxe
+`programa { funcao inicio() { ... } }`, como o Portugol Webstudio.
+Execute um exercício por vez. Estes arquivos não usam a sintaxe do VisualG.
+
+## Adicionar um exercício
+
+- Entrada, saída e cálculos: `basicos/11-nome-do-exercicio.por`.
+- Vetores: `vetores/06-nome-do-exercicio.por`.
+- Novo assunto: crie uma pasta com nome curto, por exemplo `repeticao/01-tabuada.por`.
+
+Envie o arquivo `.por` e acrescente seu link nesta página.
+Na média de vetores, a divisão usa operandos inteiros; revise esse ponto se quiser uma média com fração.
 
 ---
 
-Desenvolvido por **Rafael Cornelius** durante os estudos de lógica de programação.
+[Todos os estudos](https://github.com/Rafael-Cornelius/Rafael-Cornelius/blob/main/FACULDADE.md) · [Como adicionar trabalhos](https://github.com/Rafael-Cornelius/Rafael-Cornelius/blob/main/COMO-ADICIONAR.md)
